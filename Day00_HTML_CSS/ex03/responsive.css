@@ -1,0 +1,41 @@
+body {
+    background-color: #F1F7D1; 
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin: 3%;
+}
+
+table {
+    empty-cells: hide;
+    width: 100%;
+}
+
+td {
+    width: 5%;
+    height: 5%;
+    font-size: 1vh;
+    font-family: helvetica;
+    color: black;
+} 
+
+.el {
+    font-weight: bold;
+    text-align: center;
+}
+
+.at {
+    text-align: right;
+}
+
+.wg {
+    text-align: left;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}

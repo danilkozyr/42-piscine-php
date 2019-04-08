@@ -1,0 +1,33 @@
+body{
+    font-family:helvetica;
+    background-color: rgb(217, 224, 234);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.menu{
+    background-color: rgb(138, 104, 52);
+    width:500px;
+    padding:0px;
+    float:left;
+}
+
+ul.menu li{
+    display: none;
+    padding: 10px 10px 10px 20px;
+}
+
+ul.menu li:first-child{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    border-top:0px;
+    padding-left:10px;
+}
+
+ul.menu:hover li{
+    display:block;
+}

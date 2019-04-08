@@ -1,0 +1,1 @@
+SELECT DATE(MAX('date')) - DATE(MIN('date')) as 'uptime' FROM member_history;

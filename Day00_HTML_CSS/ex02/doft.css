@@ -1,0 +1,148 @@
+body { 
+    background-color: rgb(80,80,80);
+}
+
+.page {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.first_block, .left_block, .right_block, .central_block, .forma {
+    background-color: rgb(144,144,144);
+    border: 1px solid rgb(144,144,144);
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 20px;
+}
+
+.first_block {
+    width:1380px;
+    height:140px;
+    position: relative;
+}
+
+.logo {
+    height:120px;
+    margin:10px 0 0 10px;
+}
+
+.loupe {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    height: 120px;
+}
+
+.reload, .close {
+    position: absolute;
+    right: 10px;
+    height: 15px;
+    width: 15px;
+}
+
+.reload {
+    bottom: 10px;
+}
+
+.close {
+    top: 10px;
+}
+
+.left_block {
+    float: left;
+    width: 100px;
+    height: 420px;
+    margin: 20px 0 0 30px;
+    padding: 15px 0 0 32px;
+}
+
+.image {
+    width: 70px;
+    margin-bottom: 10px;
+    margin-left: -2px;
+}
+
+.imgborder {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: -2px;
+}
+
+.right_block {
+    float: left;
+    width: 100px;
+    height: 420px;
+    margin: 20px 0 0 10px;
+    padding: 15px 0 0 32px;
+}
+
+.wall {
+    background-image: url('resources/brick.jpg');
+    width: 100px;
+    height: 70px;
+    margin: -5px 0 0 -15px;
+}
+
+.central_block {
+    width: 1000px;
+    height: 600px;
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    margin: 20px;
+}
+
+.cluster_img {
+    margin: 10px;
+    width: 980px;
+    height: 550px;
+}
+
+#ikea {
+    width:10%;
+    height: 43px;
+    float: right;
+    margin-top: -22%;
+    margin-right: 57%;
+    position: relative;
+}
+  
+#apple {
+    width:20%;
+    height: 43px;
+    float: right;
+    margin-top: -22%;
+    margin-right: 0%;
+    position: relative;
+}
+
+.forma {
+    background-color: rgb(162, 252, 150);
+    height: 120px;
+    width: 450px;
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+    padding: 20px;
+    font-weight: 500;
+    letter-spacing: 2;
+}
+
+big {
+    font-family: Times;
+    font-size: 31px;
+}
+
+shadow {
+    text-shadow: 5px 5px 5px #ff0000;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.forma form input[type="text"] {
+    margin-left: 2px;
+    width: 350px;
+    border: 2px solid #9d969d;
+    height: 25px;
+}
