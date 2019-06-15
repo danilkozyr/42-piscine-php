@@ -1,0 +1,47 @@
+<html>
+    <title>To do or not to do</title>
+    <link rel="icon" href="https://apply.unit.ua/assets/img/logo.png?v043">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="todo.js"></script>
+    <style>
+        body {background-color: #EFF4C7}
+        button {
+            margin: 0 auto;
+            display: block;
+            width: 25%;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 15px;
+            padding: 14px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #ft_list {
+            margin: 0 auto;
+        }
+	    #ft_list > div {
+            margin: 15px auto 15px auto;
+	    	width: 22%;
+	    	background-color: #4CAF50;
+            color: white;
+            cursor:pointer;
+	    	border: 0;
+            border-radius: 17px;
+            padding: 14px 20px;
+            font-size: 11px;
+            font-family: "Lucida Grande";
+            text-align: center;
+        }
+        #ft_list > div:hover {
+            background-color: #45a049;
+
+        }
+
+    </style>
+    <body>
+        <button onclick="ask()" id="new" name="new">New</button>
+        <div id="ft_list"></div>
+    </body>
+</html>
